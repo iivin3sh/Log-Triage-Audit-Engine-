@@ -1,5 +1,7 @@
 # Enterprise Observability Pipeline and Automated SQL Audit Engine
 
+https://fsxcrdo7qcv2ufbgwmhvkx.streamlit.app/
+
 ## 1. System Overview
 This project implements a high-performance, memory-efficient asynchronous log triaging pipeline. The system processes unstructured, high-velocity application log buffers, normalizes composite text strings into structured relational data objects, and performs continuous database auditing to detect query latency anomalies and suppress redundant system alerts
 
