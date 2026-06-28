@@ -1,0 +1,34 @@
+2026-06-28 23:45:12,412 - SERVICE:OrderAPI - LEVEL:ERROR - MSG:Outbound API Failure | Target: https://api.stripe.com/v3/charges | Status: 401 | Response: {"error": "Invalid API Key"} | Latency: 124ms
+2026-06-28 23:46:01,891 - SERVICE:UserDB - LEVEL:WARN - MSG:Slow Query Detected | Duration: 2.15s | Query: SELECT * FROM users WHERE email = 'test@example.com';
+2026-06-28 23:46:02,110 - SERVICE:OrderAPI - LEVEL:CRITICAL - MSG:Database Connection Pool Exhausted. Active connections: 100. Timeout waiting for connection.2026-06-29 00:13:57,116 - SERVICE:InventoryAPI - LEVEL:WARN - MSG:Slow Query Detected | Duration: 2.06s | Query: SELECT * FROM products WHERE category_id = 235 ORDER BY price DESC;
+2026-06-29 00:13:59,118 - SERVICE:PaymentGateway - LEVEL:WARN - MSG:Slow Query Detected | Duration: 1.68s | Query: SELECT * FROM products WHERE category_id = 35 ORDER BY price DESC;
+2026-06-29 00:14:01,119 - SERVICE:OrderAPI - LEVEL:INFO - MSG:Cache hit for user session | Key: sess_7302
+2026-06-29 00:14:03,119 - SERVICE:PaymentGateway - LEVEL:INFO - MSG:API Request Inbound | Method: POST | Path: /v1/checkout | Status: 200
+2026-06-29 00:14:05,121 - SERVICE:AuthService - LEVEL:INFO - MSG:API Request Inbound | Method: POST | Path: /v1/checkout | Status: 200
+2026-06-29 00:14:07,122 - SERVICE:AuthService - LEVEL:INFO - MSG:API Request Inbound | Method: POST | Path: /v1/checkout | Status: 200
+2026-06-29 00:14:09,123 - SERVICE:InventoryAPI - LEVEL:WARN - MSG:Slow Query Detected | Duration: 2.6s | Query: SELECT * FROM products WHERE category_id = 225 ORDER BY price DESC;
+2026-06-29 00:14:11,124 - SERVICE:PaymentGateway - LEVEL:INFO - MSG:API Request Inbound | Method: POST | Path: /v1/checkout | Status: 200
+2026-06-29 00:14:13,125 - SERVICE:AuthService - LEVEL:CRITICAL - MSG:Database Connection Pool Exhausted. Active connections: 100. Timeout waiting for connection.
+2026-06-29 00:14:15,126 - SERVICE:PaymentGateway - LEVEL:ERROR - MSG:Outbound API Failure | Target: https://api.stripe.com/v1/charges | Status: 502 | Response: {'error': 'Timeout'} | Latency: 746ms
+2026-06-29 00:14:17,128 - SERVICE:OrderAPI - LEVEL:INFO - MSG:API Request Inbound | Method: POST | Path: /v1/checkout | Status: 200
+2026-06-29 00:14:19,130 - SERVICE:PaymentGateway - LEVEL:CRITICAL - MSG:Database Connection Pool Exhausted. Active connections: 100. Timeout waiting for connection.
+2026-06-29 00:14:21,132 - SERVICE:PaymentGateway - LEVEL:INFO - MSG:API Request Inbound | Method: POST | Path: /v1/checkout | Status: 200
+2026-06-29 00:14:23,133 - SERVICE:AuthService - LEVEL:INFO - MSG:User logged in successfully | UserID: 1208
+2026-06-29 00:14:25,134 - SERVICE:UserDB - LEVEL:INFO - MSG:API Request Inbound | Method: POST | Path: /v1/checkout | Status: 200
+2026-06-29 00:14:27,135 - SERVICE:UserDB - LEVEL:CRITICAL - MSG:Database Connection Pool Exhausted. Active connections: 100. Timeout waiting for connection.
+2026-06-29 00:14:29,136 - SERVICE:UserDB - LEVEL:INFO - MSG:Cache hit for user session | Key: sess_1997
+2026-06-29 00:14:31,138 - SERVICE:InventoryAPI - LEVEL:CRITICAL - MSG:Database Connection Pool Exhausted. Active connections: 100. Timeout waiting for connection.
+2026-06-29 00:14:33,139 - SERVICE:AuthService - LEVEL:WARN - MSG:Slow Query Detected | Duration: 4.47s | Query: SELECT * FROM products WHERE category_id = 473 ORDER BY price DESC;
+2026-06-29 00:14:35,141 - SERVICE:AuthService - LEVEL:INFO - MSG:Cache hit for user session | Key: sess_9370
+2026-06-29 00:14:37,143 - SERVICE:InventoryAPI - LEVEL:CRITICAL - MSG:Database Connection Pool Exhausted. Active connections: 100. Timeout waiting for connection.
+2026-06-29 00:14:39,144 - SERVICE:UserDB - LEVEL:INFO - MSG:API Request Inbound | Method: POST | Path: /v1/checkout | Status: 200
+2026-06-29 00:14:41,145 - SERVICE:InventoryAPI - LEVEL:WARN - MSG:Slow Query Detected | Duration: 4.44s | Query: SELECT * FROM products WHERE category_id = 155 ORDER BY price DESC;
+2026-06-29 00:14:43,146 - SERVICE:UserDB - LEVEL:ERROR - MSG:Outbound API Failure | Target: https://api.stripe.com/v1/charges | Status: 401 | Response: {'error': 'Timeout'} | Latency: 1234ms
+2026-06-29 00:14:45,147 - SERVICE:PaymentGateway - LEVEL:INFO - MSG:User logged in successfully | UserID: 6427
+2026-06-29 00:14:47,148 - SERVICE:UserDB - LEVEL:INFO - MSG:API Request Inbound | Method: POST | Path: /v1/checkout | Status: 200
+2026-06-29 00:14:49,149 - SERVICE:OrderAPI - LEVEL:ERROR - MSG:Outbound API Failure | Target: https://api.stripe.com/v1/charges | Status: 500 | Response: {'error': 'Timeout'} | Latency: 1728ms
+2026-06-29 00:14:51,150 - SERVICE:OrderAPI - LEVEL:INFO - MSG:API Request Inbound | Method: POST | Path: /v1/checkout | Status: 200
+2026-06-29 00:14:53,151 - SERVICE:AuthService - LEVEL:INFO - MSG:User logged in successfully | UserID: 2337
+2026-06-29 00:14:55,153 - SERVICE:InventoryAPI - LEVEL:INFO - MSG:Cache hit for user session | Key: sess_8851
+2026-06-29 00:14:57,154 - SERVICE:OrderAPI - LEVEL:INFO - MSG:API Request Inbound | Method: POST | Path: /v1/checkout | Status: 200
+2026-06-29 00:14:59,156 - SERVICE:OrderAPI - LEVEL:CRITICAL - MSG:Database Connection Pool Exhausted. Active connections: 100. Timeout waiting for connection.
