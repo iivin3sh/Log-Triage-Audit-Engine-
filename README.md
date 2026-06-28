@@ -1,7 +1,7 @@
 # Enterprise Observability Pipeline and Automated SQL Audit Engine
 
 ## 1. System Overview
-This project implements a high-performance, memory-efficient asynchronous log triaging pipeline. The system processes unstructured, high-velocity application log buffers, normalizes composite text strings into structured relational data objects, and performs continuous database auditing to detect query latency anomalies and suppress redundant system alerts.
+This project implements a high-performance, memory-efficient asynchronous log triaging pipeline. The system processes unstructured, high-velocity application log buffers, normalizes composite text strings into structured relational data objects, and performs continuous database auditing to detect query latency anomalies and suppress redundant system alerts
 
 ## 2. Architecture and Data Lifecycle
 The application functions as a unidirectional Data Engineering pipeline following strict ETL (Extract, Transform, Load) protocols:
